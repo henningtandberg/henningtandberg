@@ -1,66 +1,91 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&section=header&reversal=false"/>
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-    </head>
-    <!--></!-->
-    <body>
-        <img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&section=header&reversal=false"/>
-        <div id="badges" style="text-align: center">
-            <h1>Henning Tandberg</h2>
-            <a href="https://www.linkedin.com/in/henningpt/">
-                <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-            </a>
+<h1>Henning Tandberg</h1>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=700&color=F7A41DDF&width=435&lines=CoWorker;Software+Developer;TDD+Enthusiast;Low-Level+Hobbyist" alt="Typing SVG" /></a>
+
+<details>
+<summary>About me</summary>
+
+[//]: # (You must have a lf before the markdown element when inside a block for it to work: https://stackoverflow.com/questions/29368902/how-can-i-wrap-my-markdown-in-an-html-div)
+
+```csharp
+/// <summary>
+/// About me.
+/// </summary>
+/// <param name="Location">Oslo, Norway</param>
+/// <param name="Occupation">Developer & CoWorker at CoWork</param>
+/// <param name="Education">Master in Informatics - Programming and Systems Architecture</param>
+/// <param name="Specialization">Integrations, Migration, TDD, and working on my DDD skills</param>
+/// <param name="Interests">Embedded System, Kernel and Emulator Development</param>
+/// <param name="Languages">Norwegian, English</param>
+public record About(
+    string Location,
+    string Occupation,
+    string Education,
+    string Specialization,
+    string Interests,
+    string Languages);
+```
+</details>
+
+<details>
+<summary>Recent Projects</summary>
+    <div>
+        <a href="https://github.com/henningtandberg/RetroEmu">
+            <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=henningtandberg&repo=RetroEmu&show_owner=false&theme=dark"/>
+        </a>
+        <div valign="top">
+            <h3>Retro Emu - A GameBoy emulator in C#</h3>
+            <p>In 2019 I thought to my self that writing a GameBoy emualtor would be easy. In 2025, after many years of procrastination and restarting the project using C# instead of C++ as the main language, I finally got it to a stage where it runs. But not without some great help from two MVPs <a href="https://github.com/murillio4">@murillio4</a> and <a href="https://github.com/EilifTS">@EilifTS</a>.</p>
         </div>
-        <div style="display: flex; justify-content: center; padding-top: 40px">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=henningtandberg&repo=RetroEmu&show_owner=true&theme=dark" style="padding-right: 10px"/>
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=henningtandberg&repo=functional-programming-workshop&show_owner=true&theme=dark" style="padding-left: 10px"/>
+    </div>
+    <!--
+    <br>
+    <div>
+        <a href="https://github.com/henningtandberg/RetroEmu">
+            <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=henningtandberg&repo=functional-programming-workshop&show_owner=false&theme=dark"/>
+        </a>
+        <div valign="top">
+            <h3>Functional Programming Workshop</h3>
+            <p>
+            </p>
         </div>
-        <div style="display: flex; justify-content: center; padding-top: 20px">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=henningtandberg&repo=L293DDriver&show_owner=true&theme=dark" style="padding-right: 10px"/>
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=henningtandberg&repo=dimled&show_owner=true&theme=dark" style="padding-left: 10px"/>
+    </div>
+    <br>
+    <div>
+        <a href="https://github.com/henningtandberg/RetroEmu">
+            <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=henningtandberg&repo=functional-programming-workshop&show_owner=false&theme=dark"/>
+        </a>
+        <div valign="top">
+            <h3>Functional Programming Workshop</h3>
+            <p>
+            </p>
         </div>
-        <div style="display: flex; justify-content: center; padding-top: 20px">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=henningtandberg&repo=multiple-RF24-temp-loggers&show_owner=true&theme=dark"/>
-        </div>
-        <div style="display: flex; justify-content: center; padding-top: 40px">
-            <img align="center" src="https://github-readme-stats.vercel.app/api?username=henningtandberg&rank_icon=github&theme=dark"/>
-            <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=henningtandberg&layout=compact&theme=dark&exclude_repo=blog-management"/>
-        </div>
-        <div style="display: flex; justify-content: center; padding-top: 40px">
-            <img src="https://github-profile-trophy.vercel.app/?username=henningtandberg&theme=darkhub">
-        </div>
-        <div style="display: flex; justify-content: center; padding-top: 40px">
-            <img src='https://raw.githubusercontent.com/github/explore/e495457f5ff28c343f9e422f8e3cf80fd3e80890/topics/assembly/assembly.png' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg' style="filter: invert(1)" width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fsharp/fsharp-original.svg' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/zig/zig-original.svg' width="40" height="40">
-        </div>
-        <div style="display: flex; justify-content: center;">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vim/vim-original.svg' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetbrains/jetbrains-original.svg' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/clion/clion-original.svg' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rider/rider-original.svg' width="40" height="40">
-        </div>
-        <div style="display: flex; justify-content: center;">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cmake/cmake-original.svg' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg' width="40" height="40">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg' width="40" height="40">
-        </div>
-        <div style="display: flex; justify-content: center;">
-            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg' width="40" height="40">
-            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/MacOS_logo.svg/400px-MacOS_logo.svg.png' style="filter: invert(1)" width="40" height="40">
-        </div>
-        <!---->
-        <img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&section=footer&reversal=false"/>
-    </body>
-</html>
+    </div>
+    -->
+</details>
+
+<details>
+<summary>GitHub Stats</summary>
+<div align="left">
+    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api?username=henningtandberg&rank_icon=github&theme=dark"/>
+    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=henningtandberg&layout=compact&theme=dark&exclude_repo=blog-management"/>
+</div>
+</details>
+
+<details>
+<summary>Contact</summary>
+<div align="center">
+    <p>Want to get in contact?</p>
+    <a href="https://www.linkedin.com/in/henningpt/">
+        <img align="left" src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+    </a>
+    <!--
+    <a href="https://www.linkedin.com/in/henningpt/">
+        <img align="left" src="https://img.shields.io/badge/GMail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="LinkedIn Badge"/>
+    </a>
+    -->
+</div>
+</details>
+        
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&section=footer&reversal=false"/>
