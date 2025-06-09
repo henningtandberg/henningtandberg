@@ -9,22 +9,15 @@
 [//]: # (You must have a lf before the markdown element when inside a block for it to work: https://stackoverflow.com/questions/29368902/how-can-i-wrap-my-markdown-in-an-html-div)
 
 ```csharp
-/// <summary>
-/// About me.
-/// </summary>
-/// <param name="Location">Oslo, Norway</param>
-/// <param name="Occupation">Developer & CoWorker at CoWork</param>
-/// <param name="Education">Master in Informatics - Programming and Systems Architecture</param>
-/// <param name="Specialization">Integrations, Migration, TDD, and working on my DDD skills</param>
-/// <param name="Interests">Embedded System, Kernel and Emulator Development</param>
-/// <param name="Languages">Norwegian, English</param>
-public record About(
-    string Location,
-    string Occupation,
-    string Education,
-    string Specialization,
-    string Interests,
-    string Languages);
+var aboutMe = AboutMeBuilder
+    .Create()
+    .WithLocation("Oslo, Norway")
+    .WithOccupation("Developer and CoWorker at CoWork")
+    .WithEducation("Master in Informatics - Programming and Systems Architecture")
+    .WithHighlightedSkills(["Integrations", "Migraton", "TDD", "DDD"])
+    .WithInterests(["Embedded", "Kernel Dev", "Emulator Dev"])
+    .WithLanguages(["Norwegian", "English"])
+    .Build();
 ```
 </details>
 
