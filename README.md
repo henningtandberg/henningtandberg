@@ -32,7 +32,7 @@ var aboutMe = AboutMeBuilder
             <p>In 2019 I thought to my self that writing a GameBoy emualtor would be easy. In 2025, after many years of procrastination and restarting the project using C# instead of C++ as the main language, I finally got it to a stage where it runs. But not without some great help from two MVPs <a href="https://github.com/murillio4">@murillio4</a> and <a href="https://github.com/EilifTS">@EilifTS</a>.</p>
         </div>
     </div>
-    <!--
+    <!---
     <br>
     <div>
         <a href="https://github.com/henningtandberg/RetroEmu">
