@@ -73,7 +73,6 @@ var aboutMe = AboutMeBuilder
 <details>
 <summary>Contact</summary>
 <div align="center">
-    <p>Want to get in contact?</p>
     <a href="https://www.linkedin.com/in/henningpt/">
         <img align="left" src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
     </a>
