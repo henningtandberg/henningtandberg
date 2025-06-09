@@ -65,7 +65,7 @@ var aboutMe = AboutMeBuilder
     <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=henningtandberg&layout=compact&theme=dark&exclude_repo=blog-management"/>
 </div>
 <div align="left">
-    <img height="200" align="center" src="https://github.com/henningtandberg/henningtandberg/blob/output/github-contribution-grid-snake.svg" />
+    <img height="200" align="center" src="https://github.com/henningtandberg/henningtandberg/blob/output/github-contribution-grid-snake-dark.svg" />
 </div>
 
 </details>
