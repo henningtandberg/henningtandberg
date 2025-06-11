@@ -14,7 +14,7 @@ var aboutMe = AboutMeBuilder
     .WithLocation("Oslo, Norway")
     .WithOccupation("Developer and CoWorker at CoWork")
     .WithEducation("Master in Informatics - Programming and Systems Architecture")
-    .WithHighlightedSkills(["Integrations", "Migraton", "TDD", "DDD"])
+    .WithHighlightedSkills(["Integrations", "Migration", "TDD", "DDD"])
     .WithInterests(["Embedded", "Kernel Dev", "Emulator Dev"])
     .WithLanguages(["Norwegian", "English"])
     .Build();
