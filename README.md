@@ -32,19 +32,18 @@ var aboutMe = AboutMeBuilder
             <p>In 2019 I thought to my self that writing a GameBoy emualtor would be easy. In 2025, after many years of procrastination and restarting the project using C# instead of C++ as the main language, I finally got it to a stage where it runs. But not without some great help from two MVPs <a href="https://github.com/murillio4">@murillio4</a> and <a href="https://github.com/EilifTS">@EilifTS</a>.</p>
         </div>
     </div>
-    <!---
     <br>
     <div>
-        <a href="https://github.com/henningtandberg/RetroEmu">
-            <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=henningtandberg&repo=functional-programming-workshop&show_owner=false&theme=dark"/>
+        <a href="https://github.com/henningtandberg/usb-rubber-ducky">
+            <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=henningtandberg&repo=usb-rubber-ducky&show_owner=false&theme=dark"/>
         </a>
         <div valign="top">
-            <h3>Functional Programming Workshop</h3>
-            <p>
-            </p>
+            <h3>USB Rubber Ducky</h3>
+            <p>After learning about the hacker tool referred to as a "USB Rubber Ducky", I wanted to see if I could make such a device my self (for educational purposes ofcourse).</p>
         </div>
     </div>
     <br>
+    <!--
     <div>
         <a href="https://github.com/henningtandberg/RetroEmu">
             <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=henningtandberg&repo=functional-programming-workshop&show_owner=false&theme=dark"/>
