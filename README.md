@@ -22,7 +22,7 @@ var aboutMe = AboutMeBuilder
 </details>
 
 <details>
-<summary>Recent Projects</summary>
+<summary>Highlighted Projects</summary>
     <div>
         <a href="https://github.com/henningtandberg/RetroEmu">
             <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=henningtandberg&repo=RetroEmu&show_owner=false&theme=dark"/>
